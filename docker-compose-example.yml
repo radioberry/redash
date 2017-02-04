@@ -22,6 +22,6 @@ redash-nginx:
   ports:
     - "80:80"
   volumes:
-    - /opt/nginx/:/etc/nginx/
+    - /opt/nginx:/etc/nginx/
   links:
     - redash
